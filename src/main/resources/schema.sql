@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS Topic;
+CREATE TABLE Topic (
+    id SERIAL PRIMARY KEY ,
+    name VARCHAR(30) NOT NULL UNIQUE ,
+    description VARCHAR(150)
+)
